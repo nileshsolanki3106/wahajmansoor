@@ -8,7 +8,7 @@
     --body-font-weight: 400;
     --body-font-color: #292929;
     --body-line-height: 1.45;
-    --heading-font-family: "Rubik", sans-serif;
+    --heading-font-family: "Bricolage Grotesque", sans-serif;
     --heading-font-color: #0D0D0F;
     --heading-font-weight: 700;
     --link-font-color: #fff;
@@ -16,6 +16,7 @@
     --button-font-size: 16px;
     --button-font-weeight: 500;
     --white-color: #fff;
+    --blue-color: #0326FC;
 }
 
 
@@ -540,22 +541,22 @@ h6,
  *	Grid System
  * ----------------------------------------------- */
 
-.wrap,
-.wrap-fuild {
+.container,
+.container-fuild {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.wrap *,
-.wrap-fuild * {
+.container *,
+.container-fuild * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.wrap {
-    max-width: 1170px;
+.container {
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -673,10 +674,10 @@ h6,
 
 .btn {
     display: inline-block;
-    padding: 16px 30px;
+    padding: 15px 35px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-color: var(--link-font-color);
+    background-color: var(--blue-color);
     font-family: var(--body-font-family);
     font-size: var(--button-font-size);
     font-weight: var(--button-font-weight);
@@ -686,8 +687,13 @@ h6,
     transition: all .3s;
     line-height: 1;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 8px;
     color: var(--white-color);
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: #000;
 }
 
 .btn:focus {
