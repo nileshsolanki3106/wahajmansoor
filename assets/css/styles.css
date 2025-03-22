@@ -3,18 +3,18 @@
  * ----------------------------------------------- */
 
  :root {
-    --body-font-family: 'Chakra Petch', sans-serif;
-    --body-font-size: 16px;
+    --body-font-family: "Rubik", sans-serif;
+    --body-font-size: 18px;
     --body-font-weight: 400;
-    --body-font-color: #505d68;
+    --body-font-color: #292929;
     --body-line-height: 1.45;
-    --heading-font-family: 'Chakra Petch', sans-serif;
-    --heading-font-color: #222426;
+    --heading-font-family: "Rubik", sans-serif;
+    --heading-font-color: #0D0D0F;
     --heading-font-weight: 700;
-    --link-font-color: #222426;
+    --link-font-color: #fff;
     --link-hover-font-color: #ffb424;
-    --button-font-size: 14px;
-    --button-font-weeight: 600;
+    --button-font-size: 16px;
+    --button-font-weeight: 500;
     --white-color: #fff;
 }
 
@@ -419,12 +419,12 @@ h6,
 
 h1,
 .h1 {
-    font-size: 92px
+    font-size: 66px;
 }
 
 h2,
 .h2 {
-    font-size: 64px
+    font-size: 55px;
 }
 
 h3,
