@@ -1,0 +1,14 @@
+.site__header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site__logo a {
+    color: linear-gradient(90deg, #0326FC 0%, #14192D 100%);
+}
